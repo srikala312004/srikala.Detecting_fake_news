@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load the dataset
 # Replace 'dataset.csv' with the path to your dataset file
-df = pd.read_csv('dataset.csv')
+df = pd.read_csv('news.csv')
 
 # Explore the dataset (optional)
 print(df.head())  # Display the first few rows
