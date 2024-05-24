@@ -27,7 +27,7 @@ tfidf_train = tfidf_vectorizer.fit_transform(X_train)
 # Transform the testing data
 tfidf_test = tfidf_vectorizer.transform(X_test)
 
-# Initialize a PassiveAggressiveClassifier
+# Initialize a PassiveAggressiveClassifierr
 pac = PassiveAggressiveClassifier(max_iter=50)
 
 # Train the model
